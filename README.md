@@ -11,7 +11,6 @@
 * [Glossary](#glossary)
 * [Architecture](#architecture)
   + [Overview](#overview)
-  + [Important constraints and limitations](#important-constraints-and-limitations)
   + [Tradeoff decisions](#tradeoff-decisions)
 * [How to contribute](#how-to-contribute)
 * [Creators](#creators)
@@ -67,8 +66,6 @@ Our architecture contains 3 microservice types that interact via APIs.
 Only telegram bot is user-facing, it masks the complex hardware and software design that is happening to deliver machines' status
 
 ![](https://files.catbox.moe/7g8v3o.jpg)
-
-### Important constraints and limitations
 
 ### Tradeoff decisions 
 
