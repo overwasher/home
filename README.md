@@ -55,6 +55,10 @@ There are no well-known competitors. Even worse, there are no competitors who wo
 
 ## Architecture
 
+### Overview
+
+![](https://files.catbox.moe/7g8v3o.jpg)
+
 ### Important constraints and limitations
 
 ### Tradeoff decisions 
