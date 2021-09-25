@@ -14,8 +14,6 @@
 * [How to contribute](#how-to-contribute)
 * [Creators](#creators)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ## What is it?
 
 It is a student project that allows people to find out which closest washing machine or drying machine is currently free to use in campus. 
