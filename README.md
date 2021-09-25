@@ -37,6 +37,10 @@ We will track which washing machines and dryers are in use using fancy sensors (
 
 ### Goals
 
+- Provide user with relatively up-to-date information on washing and drying mashines statuses
+- Make all the hardware non-invasive: we don't want any warranties voided or critical devices broken
+- Minimize the amount of required maintenance: after the development phase the system should not require much labour to support
+
 ### Are there any competitors?
 
 There are no well-known competitors. Even worse, there are no competitors who would create something easy-to-build and easy-to-scale. What is more, nobody has done so on Innopolis University campus! So this project is quite unique.
