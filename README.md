@@ -2,7 +2,21 @@
 
 # Overwasher
 
-### What is it?
+## Table of contents
+
+* [What is it?](#what-is-it-)
+  + [Motivation](#motivation)
+  + [Are there any competitors?](#are-there-any-competitors-)
+* [Glossary](#glossary)
+* [Architecture](#architecture)
+  + [Important constraints and limitations](#important-constraints-and-limitations)
+  + [Tradeoff decisions](#tradeoff-decisions)
+* [How to contribute](#how-to-contribute)
+* [Creators](#creators)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+## What is it?
 
 It is a student project that allows people to find out which closest washing machine or drying machine is currently free to use in campus. 
 
@@ -14,7 +28,7 @@ An overwatcher microservice to aggregate data from sensor nodes
 
 A telegram bot to communicate with users
 
-#### Motivation
+### Motivation
 
 There are many students on campus and it is hard to know where to go if you want to wash your clothes as any of washing machines may be busy. Moreover, if you decide to dry your clothes afterwards, you never know when drying is going to finish.
 
@@ -22,11 +36,11 @@ But fear not, the cavalry is here!
 
 We will track which washing machines and dryers are in use using fancy sensors (tm) and advanced machine learning (c) techniques and provide you with this information via a telegram bot!
 
-#### Are there any competitors?
+### Are there any competitors?
 
 There are no well-known competitors. Even worse, there are no competitors who would create something easy-to-build and easy-to-scale. What is more, nobody has done so on Innopolis University campus! So this project is quite unique.
 
-### Glossary
+## Glossary
 
 * Sensor node -- aggregate of hardware and software solutions that collects data and status of washing and drying machines and sends data to Overwatcher
 
@@ -38,11 +52,26 @@ There are no well-known competitors. Even worse, there are no competitors who wo
 
 * Not working or broken washing/drying machine is a machine that is unable to function
 
-### Architecture
+## Architecture
 
+### Important constraints and limitations
 
 ### Tradeoff decisions 
 
 During development there were some important tradeoff decisions that affected the design in the end.
 
 If you are interested in why we use ESP32 and not ESP8266 and in some other important desisions that affected the development feel free to visit our [Task Tracker](https://taiga.dcnick3.me/project/overwasher/)
+
+## How to contribute
+
+Currently, the project is in heavy development and may change a lot in the nearest future. 
+
+*We do not recommend contributing at this stage*. 
+
+Later, when project becomes more stable, we may create some contribution guidelines for everyone to use. 
+
+## Creators
+
+- Nikita Strygin 
+- Violetta Sim
+- Vyacheslav Sergeev
