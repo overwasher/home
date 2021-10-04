@@ -83,6 +83,16 @@ Later, when project becomes more stable, we may create some contribution guideli
 
 ## Creators
 
-- Nikita Strygin 
+- Nikita Strygin
+  * Telegram: [@DCNick3](https://t.me/DCNick3)
+  * Github: [@DCNick3](https://github.com/DCNick3)
 - Violetta Sim
+  * Telegram: [@eyihluyc](https://t.me/eyihluyc)
+  * Github: [@eyihluyc](https://github.com/eyihluyc)
 - Vyacheslav Sergeev
+  * Telegram: [@unb0und](https://t.me/unb0und)
+  * Github: [@HisMaj3sty](https://github.com/HisMaj3sty)
+
+## Licence
+
+All repositories in Overwasher codebase are licenced under GNU Affero General Public License v3.0
