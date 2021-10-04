@@ -4,10 +4,10 @@
 
 ## Table of contents
 
-* [What is it?](#what-is-it-)
+* [What is it?](#what-is-it)
   + [Motivation](#motivation)
   + [Goals](#goals)
-  + [Are there any competitors?](#are-there-any-competitors-)
+  + [Are there any competitors?](#are-there-any-competitors)
 * [Glossary](#glossary)
 * [Architecture](#architecture)
   + [Overview](#overview)
