@@ -43,21 +43,21 @@ There are no well-known competitors. Even worse, there are no competitors who wo
 
 ## Glossary
 
-* Sensor node -- aggregate of hardware and software solutions that collects data and status of washing and drying machines and sends data to Overwatcher
+* Sensor node — aggregate of hardware and software solutions that collects data and status of washing and drying machines and sends data to Overwatcher
 
-  * PCB -- printed circuit board that is the hardware for Sensor node
+  * PCB — printed circuit board that is the hardware for Sensor node
 
-  * Telemetry -- raw values from accelerometer that are collected and used for later analysis 
+  * Telemetry — raw values from accelerometer that are collected and used for later analysis 
 
-  * TM -- telemetry manager, module of sensor node that curates collection and sending telemetry
+  * TM — telemetry manager, module of sensor node that curates collection and sending telemetry
 
-  * Activity -- status of machine at some point in time (active -- busy washing or drying)
+  * Activity — status of machine at some point in time (active — busy washing or drying)
 
-  * AD -- activity detection, module of sensor node that processes the data from accelerometer to judge whether machine is active or not
+  * AD — activity detection, module of sensor node that processes the data from accelerometer to judge whether machine is active or not
 
-* Overwatcher -- software micro service that collects data from all sensor nodes via the protocol and gives nice API to telegram bot
+* Overwatcher — software micro service that collects data from all sensor nodes via the protocol and gives nice API to telegram bot
 
-* Telegram bot -- a bot for Telegram that uses Overwatcher API to direct users to best washing/drying machine
+* Telegram bot — a bot for Telegram that uses Overwatcher API to direct users to best washing/drying machine
 
 * Free washing/drying machine is a machine that is functional and is not actively washing or drying at the moment
 
