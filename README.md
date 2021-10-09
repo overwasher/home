@@ -2,9 +2,11 @@
 
 # Overwasher
 
+Overwasher allows people to find out which washing or drying machine is currently free to use on campus.
+
 ## Table of contents
 
-* [What is it?](#what-is-it)
+* [Features](#features)
   + [Motivation](#motivation)
   + [Goals](#goals)
   + [Are there any competitors?](#are-there-any-competitors)
@@ -15,17 +17,11 @@
 * [How to contribute](#how-to-contribute)
 * [Creators](#creators)
 
-## What is it?
+## Features
 
-It is a student project that allows people to find out which closest washing machine or drying machine is currently free to use in campus. 
-
-It involves:
-
-Sensor nodes that collect data and status of washing/drying machines
-
-An overwatcher microservice to aggregate data from sensor nodes
-
-A telegram bot to communicate with users
+- Sensor nodes that statuses of washing/drying machines
+- An overwatcher microservice to aggregate data from sensor nodes
+- A telegram bot to communicate with users
 
 ### Motivation
 
@@ -49,6 +45,16 @@ There are no well-known competitors. Even worse, there are no competitors who wo
 
 * Sensor node -- aggregate of hardware and software solutions that collects data and status of washing and drying machines and sends data to Overwatcher
 
+  * PCB -- printed circuit board that is the hardware for Sensor node
+
+  * Telemetry -- raw values from accelerometer that are collected and used for later analysis 
+
+  * TM -- telemetry manager, module of sensor node that curates collection and sending telemetry
+
+  * Activity -- status of machine at some point in time (active -- busy washing or drying)
+
+  * AD -- activity detection, module of sensor node that processes the data from accelerometer to judge whether machine is active or not
+
 * Overwatcher -- software micro service that collects data from all sensor nodes via the protocol and gives nice API to telegram bot
 
 * Telegram bot -- a bot for Telegram that uses Overwatcher API to direct users to best washing/drying machine
@@ -67,11 +73,17 @@ Only telegram bot is user-facing, it masks the complex hardware and software des
 
 ![](https://files.catbox.moe/7g8v3o.jpg)
 
+Note, that we have two independent control flows:
+
+* Sensor nodes send activity and telemetry to overwatcher whenever they feel like it.
+
+* When user interacts with the telegram bot, bot requests the most fresh data from overwatcher
+
 ### Tradeoff decisions 
 
 During development there were some important tradeoff decisions that affected the design in the end.
 
-If you are interested in why we use ESP32 and not ESP8266 and in some other important desisions that affected the development feel free to visit our [Task Tracker](https://taiga.dcnick3.me/project/overwasher/)
+If you are interested in why we use ESP32 and not ESP8266 and in some other important desisions that affected the development feel free to visit our [Task Tracker](https://taiga.dcnick3.me/project/overwasher/wiki/tradeoff-decisions-about-quality)
 
 ## How to contribute
 
