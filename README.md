@@ -41,7 +41,7 @@ There are many students on campus and it is hard to know where to go if you want
 
 But fear not, the cavalry is here!
 
-We will track which washing machines and dryers are in use using fancy sensors (tm) and advanced machine learning (c) techniques and provide you with this information via a telegram bot!
+We will track which washing machines and dryers are in use using fancy sensors and advanced machine learning techniques and provide you with this information via a telegram bot!
 
 ## Goals
 
