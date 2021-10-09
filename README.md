@@ -17,11 +17,15 @@ Overwasher allows people to find out which washing or drying machine is currentl
 * [How to contribute](#how-to-contribute)
 * [Creators](#creators)
 
-## Features
+## Components
 
 - Sensor nodes that statuses of washing/drying machines
-- An overwatcher microservice to aggregate data from sensor nodes
-- A telegram bot to communicate with users
+  - [Sofware](https://github.com/overwasher/sensor-node)
+  - [Hardware](https://github.com/overwasher/sensor-node-hardware)
+- An [overwatcher](https://github.com/overwasher/overwatcher) microservice to aggregate data from sensor nodes
+- A [telegram bot](https://github.com/overwasher/telegram-bot) to communicate with users
+
+If you want more details on these components or want to submit an issue, please visit repository specific to the component.
 
 ### Motivation
 
@@ -109,4 +113,4 @@ Later, when project becomes more stable, we may create some contribution guideli
 
 ## Licence
 
-All repositories in Overwasher codebase are licenced under GNU Affero General Public License v3.0
+All code repositories in Overwasher codebase are licenced under GNU Affero General Public License v3.0
