@@ -21,6 +21,7 @@ Overwasher allows people to find out which washing or drying machine is currentl
 
 ![demo](https://raw.githubusercontent.com/overwasher/telegram-bot/main/Demo.png)
 
+By the way, we now have [live demo](https://t.me/overwasher_bot)!
 
 ## Components
 
