@@ -79,6 +79,8 @@ Note, that we have two independent control flows:
 
 * When user interacts with the telegram bot, bot requests the most fresh data from overwatcher
 
+In case you *really* want it, you can find additional views of the system [here](https://taiga.dcnick3.me/project/overwasher/wiki/architecture) 
+
 ### Tradeoff decisions 
 
 During development there were some important tradeoff decisions that affected the design in the end.
