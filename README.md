@@ -6,10 +6,11 @@ Overwasher allows people to find out which washing or drying machine is currentl
 
 ## Table of contents
 
-* [Features](#features)
-  + [Motivation](#motivation)
-  + [Goals](#goals)
-  + [Are there any competitors?](#are-there-any-competitors)
+* [Demo](#demo)
+* [Components](#components)
+* [Motivation](#motivation)
+* [Goals](#goals)
+* [Are there any competitors?](#are-there-any-competitors)
 * [Glossary](#glossary)
 * [Architecture](#architecture)
   + [Overview](#overview)
@@ -33,7 +34,7 @@ By the way, we now have [live demo](https://t.me/overwasher_bot)!
 
 If you want more details on these components or want to submit an issue, please visit repository specific to the component.
 
-### Motivation
+## Motivation
 
 There are many students on campus and it is hard to know where to go if you want to wash your clothes as any of washing machines may be busy. Moreover, if you decide to dry your clothes afterwards, you never know when drying is going to finish.
 
@@ -41,13 +42,13 @@ But fear not, the cavalry is here!
 
 We will track which washing machines and dryers are in use using fancy sensors (tm) and advanced machine learning (c) techniques and provide you with this information via a telegram bot!
 
-### Goals
+## Goals
 
 - Provide user with relatively up-to-date information on washing and drying mashines statuses
 - Make all the hardware non-invasive: we don't want any warranties voided or critical devices broken
 - Minimize the amount of required maintenance: after the development phase the system should not require much labour to support
 
-### Are there any competitors?
+## Are there any competitors?
 
 There are no well-known competitors. Even worse, there are no competitors who would create something easy-to-build and easy-to-scale. What is more, nobody has done so on Innopolis University campus! So this project is quite unique.
 
