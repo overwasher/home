@@ -17,6 +17,7 @@ Overwasher allows people to find out which washing or drying machine is currentl
   + [Tradeoff decisions](#tradeoff-decisions)
 * [How to contribute](#how-to-contribute)
 * [Creators](#creators)
+* [RUP artifacts](#rup-artifacts)
 
 ## Demo
 
@@ -117,6 +118,10 @@ Later, when project becomes more stable, we may create some contribution guideli
 - Vyacheslav Sergeev
   * Telegram: [@unb0und](https://t.me/unb0und)
   * Github: [@HisMaj3sty](https://github.com/HisMaj3sty)
+
+## RUP artifacts
+
+In case if you are a TA or a professor who needs to just grade this project take a look at our [link-hub](https://taiga.dcnick3.me/project/overwasher/wiki/rup-artifacts) that will help you grade us more efficiently!
 
 ## Licence
 
